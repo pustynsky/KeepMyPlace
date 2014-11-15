@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="string_location_is_not_enabled">Locaiton service is not enabled on your device.\n
+        Please allow by choosing such an option in SETTINGS.</string>
+    <string name="app_name">Keep My Location</string>   
+    <string name="action_settings">Settings</string>    
+    
+    <string name="stringDrawerTitle">Your Saved Locations:</string>    
+    
+    <string name="action_add_new_place"> Add new place</string>
+    <string name="action_share_location"> Share</string>
+    <string name="action_settings_about"> About</string>
+    <string name="string_copyright">(C) Sergey Pustynsky, 2014</string>
+    <string name="stringTextLocationName">Give a name to the place:</string>
+    <string name="stringTextLocationDescription">Write short description:</string>
+        
+    <string name="stringLocationAddedSuccesfully">Location is added successfully</string>
+    <string name="stringErrorWhileAddingNewLocation">Error while adding new location</string>
+     
+    <string name="stringNewLocationName">New location</string>
+    <string name="stringNewLocationDescription">Tap to add</string>
+    
+    <string name="stringActionBarMenuAddNewLocation">Tap on map wherever you want\nthen tap on title to save</string>
+
+    <string name="stringSaveDialogTitle">Save New Location:</string>
+    <string name="buttonSave">Save</string>
+    <string name="buttonCancel">Cancel</string>
+    
+    <string name="stringDeleteDialogTitle">Delete Location:</string>
+    <string name="buttonDelete">Delete</string>
+    <string name="buttonDeleteCancel">Cancel</string>
+    
+    <string name="stringLocationAlreadyAdded">It\'s a really amazing place, isn\'t it?</string>
+    
+    <string name="stringConnectionFault">Check your internet connection</string>
+    <string name="stringConnectionSuccess">Successfully connected to network</string>
+    
+    <string name="SendImageOnShareMode">SendImageOnShareMode</string>
+</resources>

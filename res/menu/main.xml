@@ -1,0 +1,59 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:keepmyplace="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.delphis.keepmyplace.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="3"        
+        android:icon="@drawable/settings"    
+        android:title="@string/action_settings"
+        keepmyplace:showAsAction="ifRoom|withText">
+        
+        
+        <menu>
+            <group android:checkableBehavior="single">
+                
+        <item android:id="@+id/action_send_image"
+        android:showAsAction="always"
+    
+        android:title="Send location picture on share
+        "/>
+
+        <item android:id="@+id/action_send_shapshot_on_share"
+        android:showAsAction="always"       
+        android:title="Send map screenshot on share" />
+        
+        <item android:id="@+id/action_send_nothing"
+        android:showAsAction="always"
+        android:checked="true"
+        android:title="Send coordinates only"
+        />
+        
+        
+        </group>
+            
+             <item
+        android:id="@+id/action_settings_about"
+        android:orderInCategory="1"    
+        android:title="@string/action_settings_about" />
+        </menu>
+        
+        </item>
+    
+     <item
+        android:id="@+id/action_share_location"
+        android:orderInCategory="2"
+        android:icon="@drawable/share"               
+        android:title="@string/action_share_location"
+        keepmyplace:showAsAction="ifRoom|withText"/>
+    
+    <item
+        android:id="@+id/action_add_location"
+        android:orderInCategory="1"
+        android:icon="@drawable/addnew"        
+        android:title="@string/action_add_new_place"
+        keepmyplace:showAsAction="ifRoom|withText"/>
+    
+
+</menu>
